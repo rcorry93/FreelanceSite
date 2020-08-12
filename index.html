@@ -1,0 +1,299 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <title>Rian Corry - Web Dev</title>
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+
+    <link href="./css/global.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <section id="animation" class="animation">
+        <div class="container">
+
+            <div id="large-header" class="large-header">
+                <canvas id="canvas"></canvas>
+                <div class="canvas-content">
+                    <h1 class="main-title">Hello, I'm <span id="highlighted-name">Rian Corry</span>.<br> I'm a
+                        Full-Stack Web Developer.</h1>
+                    <a href="javascript:void(0)" id="scrollTo" class="btn" rel="noopener noreferrer">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="navbar" id="navbar">
+            <nav class="navbar-items" id="navItems">
+                <a href="javascript:void(0)" class="links" title="Scroll to Home" id="home-link">Home</a>
+                <a href="javascript:void(0)" class="links" title="Scroll to About" id="about-link">About</a>
+                <a href="javascript:void(0)" class="links" title="Scroll to Services" id="services-link">Services</a>
+                <a href="javascript:void(0)" class="links" title="Scroll to Portfolio" id="portfolio-link">Portfolio</a>
+                <a href="javascript:void(0)" class="links" title="Scroll to Contact" id="contact-link">Contact</a>
+               
+    
+            </nav>
+            <button class="hamburger hamburger--spin icon" id="hamburgerIcon" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+        </div>
+
+    </section>
+
+   
+    
+
+
+    <section id="about" >
+        <div class="container flex">
+        <h1 class="section-header waypoint" data-animation="slide-in-left">About</h1>
+        <div class="title-underline waypoint" data-animation="slide-in-left" ></div>
+        <div class="container flex">
+            <div class="content">
+            
+                <div class="hexagon-items">
+                    <div class="hexagon-container">
+                    <div class="hexagon-item waypoint" data-animation="flip-in-x" data-delay="0.25">
+                        <div class="hexagon-wrapper">
+                            <div class="hexagon">
+                                <div class="content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" fill="#fff" width="50%" height="50%" viewBox="0 0 24 24"><path d="M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5A1.5,1.5 0 0,0 11.5,11A1.5,1.5 0 0,0 13,12.5A1.5,1.5 0 0,0 14.5,11A1.5,1.5 0 0,0 13,9.5Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-text waypoint" data-animation="fade-in" data-delay="0.25">
+                        <h2>Dynamic</h2>
+                        Websites don't have to be static, I love making pages come to life.
+                    </div>
+                </div>
+
+                    <div class="hexagon-container">
+                    <div class="hexagon-item waypoint" data-animation="flip-in-x" data-delay="0.5">
+                        <div class="hexagon-wrapper">
+                            <div class="hexagon">
+                                <div class="content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" fill="#fff" width="24" height="24" viewBox="0 0 24 24"><path d="M23,11H18A1,1 0 0,0 17,12V21A1,1 0 0,0 18,22H23A1,1 0 0,0 24,21V12A1,1 0 0,0 23,11M23,20H18V13H23V20M20,2H2C0.89,2 0,2.89 0,4V16A2,2 0 0,0 2,18H9V20H7V22H15V20H13V18H15V16H2V4H20V9H22V4C22,2.89 21.1,2 20,2Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-text waypoint" data-animation="fade-in" data-delay="0.5">
+                        <h2>Responsive</h2>
+                        My layouts will work on any device, big or small.
+                    </div>
+                </div>
+
+                    <div class="hexagon-container">
+                    <div class="hexagon-item waypoint" data-animation="flip-in-x" data-delay="0.75">
+                        <div class="hexagon-wrapper">
+                            <div class="hexagon">
+                                <div class="content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" fill="#fff" width="24" height="24" viewBox="0 0 24 24"><path d="M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-text waypoint" data-animation="fade-in" data-delay="0.75">
+                        <h2>Fast</h2>
+                        Fast load times and lag free interaction, my highest priority.
+                    </div>
+                </div>
+                <div class="hexagon-container">
+                    <div class="hexagon-item waypoint" data-animation="flip-in-x" data-delay="1">
+                        <div class="hexagon-wrapper">
+                            <div class="hexagon">
+                                <div class="content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" fill="#fff" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2A7,7 0 0,0 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H15A1,1 0 0,0 16,17V14.74C17.81,13.47 19,11.38 19,9A7,7 0 0,0 12,2M9,21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9V21Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-text waypoint" data-animation="fade-in" data-delay="1">
+                        <h2>Intuitive</h2>
+                        Strong preference for easy to use, intuitive UX/UI.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about  flex flex-row-sm">
+                <div class="about-me waypoint flex flex-50-gt-sm" data-animation="slide-in-left" >
+                    <div class="about-me-image"></div>
+                    <div class="about-me-text"><h2>Who's this lad?</h2>
+                    I'm a Full-Stack developer at <a href="https://www.fintru.com/" class="blue-link" title="Go to FinTru's website">FinTru</a> in Belfast. I have a passion for animations and creating responsive, minimalistic websites. <a href="javascript:void(0)" class="scrollToContactUs blue-link" title="Go to contact form">Let's work together.</a> 
+                    </div>
+                </div>
+                <div class="skills flex flex-50-gt-sm waypoint" data-animation="slide-in-right">
+                    <ul id="hexGrid">
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1771" height="2500" viewBox="221.807 89.47 440 621.061" enable-background="new 221.807 89.47 440 621.061"><filter id="a" width="150%" height="150%" x="-5%" y="-5%"><feFlood flood-color="#000" result="floodFill" flood-opacity=".5"/><feComposite in="floodFill" in2="SourceAlpha" operator="in" result="coloredAlpha"/><feGaussianBlur in="coloredAlpha" result="blur" stdDeviation="8"/><feComposite in="blur" in2="SourceGraphic" operator="out" result="maskedOffsetBlur"/><feMerge><feMergeNode in="maskedOffsetBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g filter="url(#a)"><path fill="#e44d26" d="M261.849 660.647l-40.042-449.125h440l-40.086 449.054-180.184 49.954z"/><path fill="#f16529" d="M441.807 672.348l145.596-40.367 34.258-383.735H441.807z"/><path fill="#ebebeb" d="M441.807 414.82h-72.888l-5.035-56.406h77.923V303.33H303.683l1.32 14.778 13.538 151.794h123.266zM441.807 557.876l-.242.066-61.346-16.566-3.922-43.93h-55.294l7.718 86.489 112.834 31.323.252-.071z"/><path d="M262.745 89.47h27.992v27.656h25.606V89.47h27.993v83.75h-27.993v-28.044h-25.606v28.044h-27.99l-.002-83.75zM381.149 117.244h-24.642V89.47H433.8v27.774h-24.654v55.976H381.15v-55.976h-.001zM446.065 89.47h29.19l17.955 29.428 17.938-29.428h29.2v83.75h-27.882v-41.512l-19.259 29.778h-.481l-19.272-29.778v41.512h-27.39V89.47zM554.277 89.47h28v56.068h39.368v27.682h-67.368V89.47z"/><path fill="#fff" d="M441.617 414.82v55.082h67.83l-6.395 71.44-61.435 16.58v57.307l112.924-31.294.826-9.309 12.946-145.014 1.344-14.792h-14.842zM441.617 303.33v55.084H574.67l1.103-12.382 2.51-27.924 1.318-14.778z"/></g></svg>                              <p></p>
+                              <h1>HTML 5</h1>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                            <div class="hexIn">
+                              <a class="hexLink" href="javascript:void(0)">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="96px" height="96px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg>                            
+                                  <h1>CSS3</h1>
+                                <p></p>
+                              </a>
+                            </div>
+                          </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg height="2500" viewBox="175.7 78 490.6 436.9" width="2194" xmlns="http://www.w3.org/2000/svg"><g fill="#61dafb"><path d="m666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9v-22.3c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6v-22.3c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zm-101.4 106.7c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24s9.5 15.8 14.4 23.4zm73.9-208.1c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6s22.9-35.6 58.3-50.6c8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zm53.8 142.9c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6z"/><circle cx="420.9" cy="296.5" r="45.7"/></g></svg>
+                                <h1>React</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg width="2353" height="2500" viewBox="0 0 256 272" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M.1 45.522L125.908.697l129.196 44.028-20.919 166.45-108.277 59.966-106.583-59.169L.1 45.522z" fill="#E23237"/><path d="M255.104 44.725L125.908.697v270.444l108.277-59.866 20.919-166.55z" fill="#B52E31"/><path d="M126.107 32.274L47.714 206.693l29.285-.498 15.739-39.347h70.325l17.233 39.845 27.99.498-82.179-174.917zm.2 55.882l26.496 55.383h-49.806l23.31-55.383z" fill="#FFF"/></svg>                                                              
+                                <h1>Angular</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="96px" height="96px"><path fill="#388e3c" d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"/><path fill="#37474f" d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"/><path fill="#2e7d32" d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"/><path fill="#4caf50" d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"/><path fill="#37474f" d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"/></svg>                                <h1>NodeJS</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="2500" height="2500"><style>.st0{fill:#c1272d}.st1{fill:#efcca3}.st2{fill:#ed1c24}.st3{fill:#ccac8d}.st4{fill:#fff}.st5{fill:#ff931e}.st6{fill:#ffb81e}.st7{fill:#56332b}.st8{fill:#442823}.st9{fill:#7f4a41}.st10{fill:#331712}.st11{fill:#fc6}.st12{fill:#ccc}.st13{fill:#b3b3b3}.st14{fill:#989898}.st15{fill:#323232}.st16{fill:#1e1e1e}.st17{fill:#4c4c4c}.st18{fill:#e6e6e6}.st19{fill:#606060}</style><path class="st1" d="M107.4 50.9c-.2-4.4.4-8.3-1.6-11.6-4.8-8.2-16.8-13-40.8-13v.7h-.5.5v-.7c-24 0-36.6 4.8-41.4 13.1-1.9 3.4-1.7 7.2-2 11.6-.2 3.5-1.8 7.2-1.1 11.2.8 5.2 1.1 10.4 1.9 15.2.6 3.9 6 7.2 6.5 10.9 1.4 10.2 12 14.9 36 14.9v.8h-.6.7v-.8c24 0 34.2-4.7 35.5-14.9.5-3.8 5.5-7 6.1-10.9.8-4.8 1.1-10 1.9-15.2.7-4-.9-7.8-1.1-11.3z"/><path class="st3" d="M64.6 54.5c4.3.1 7.3 2.8 10.1 5.3 3.3 2.9 8.9 4.9 11.2 7.4 2.3 2.5 5.3 5 6.4 8.9 1.1 3.9 1.4 8.9 1.4 10.2 0 1.3.7 1 2.7 0 4.7-2.3 9.9-8.5 9.9-8.5-.6 3.9-5.7 7.4-6.2 11.1C98.9 99.1 89 104 64.5 104h-.1.6"/><path class="st3" d="M80.4 46.7c.9 3.1 4.1 13.6-2.1 10.1 0 0 2.6 1.5 4.2 7.2 1.7 5.7 5.8 6.4 5.8 6.4s6.7 1.3 11.7-3c4.2-3.6 4.9-10 3.1-14.9-1.8-4.8-5-6.3-9.7-7.3-4.7-1.1-14.1-2-13 1.5z"/><circle cx="92.3" cy="58.1" r="8.8"/><circle class="st4" cx="90" cy="54.2" r="2.3"/><path class="st1" d="M78.9 57.7s7.9 5.4 12.2 10.7c4.3 5.3 4.2 6.3 4.2 6.3l-3.1 1.4s-4.4-8.3-9.8-11.4c-5.5-3.1-6.1-5.7-6.1-5.7l2.6-1.3z"/><path class="st3" d="M64.9 54.5c-4.3.1-7.5 2.8-10.4 5.3-3.3 2.9-9.1 4.9-11.4 7.4-2.3 2.5-5.4 5-6.5 8.9-1.1 3.9-1.5 8.9-1.5 10.2 0 1.3.2 1.4-2.7 0-4.7-2.2-9.9-8.5-9.9-8.5.6 3.9 5.7 7.4 6.2 11.1C30.1 99.1 40 104 64.5 104h.5"/><path class="st7" d="M88.1 71.4C83.3 65.5 75.6 60 64.9 60h-.1c-10.7 0-18.4 5.5-23.2 11.4-5 6.1-4.6 8.5-4.6 14.3 0 21 7.4 15 12.3 17.6 5 2.5 10.2 1.7 15.5 1.7h.1c5.4 0 10.5.7 15.5-1.8 4.9-2.5 12.3 3.7 12.3-17.3.1-5.8.4-8.4-4.6-14.5z"/><path class="st8" d="M64.4 65.2s-.7 9.7-2.1 11.6l2.6-.6-.5-11z"/><path class="st8" d="M65.1 65.2s.7 9.7 2.1 11.6l-2.6-.6.5-11z"/><path class="st7" d="M56.7 62.9c-1-2.3 2.6-6 8.3-6.1 5.7 0 9.3 3.7 8.3 6.1-1 2.4-4.6 3.1-8.3 3.2-3.6-.1-7.3-.8-8.3-3.2z"/><path d="M65 65.2c0-.4 3.4-.5 5.2-1.7 0 0-3.7 1.2-4.5.7-.8-.4-1-1.6-1-1.6s-.3 1.2-.9 1.6c-.7.4-4.9-.7-4.9-.7s5.6 1.4 5.6 1.7c0 .3-.1 1.3-.1 2 0 2.5 0 8.7.4 9.2.6.9.4-6.7.4-9.2-.1-.8-.1-1.6-.2-2z"/><path class="st9" d="M65.2 78.6c1.7 0 4.7 1.2 7.4 3.1-2.6-2.9-5.7-4.9-7.4-4.9-1.8 0-5.6 2.2-8.3 5.4 2.8-2.2 6.4-3.6 8.3-3.6z"/><path class="st8" d="M64.5 96.3c-3.8 0-7.5-1.2-10.9-2.1-.7-.2-1.4.3-2.1.1-6.3-2-11.4-5.4-14.5-9.7v1c0 21 7.4 15.1 12.3 17.6 5 2.5 10.2 1.7 15.5 1.7h.1c5.4 0 10.5.7 15.5-1.8 4.9-2.5 12.3 3.6 12.3-17.4 0-.8 0-1.6.1-2.3-2.9 4.7-8.2 8.4-14.8 10.6-.6.2-2-.3-2.6-.2-3.6 1.2-6.8 2.5-10.9 2.5z"/><path class="st8" d="M55 85s-2.5 7.5-.8 10.8l-2.3-1s1.7-7.6 3.1-9.8zM74.8 85s2.5 7.5.8 10.8l2.3-1s-1.8-7.6-3.1-9.8z"/><path class="st3" d="M48.6 46.7c-.9 3.1-4.1 13.6 2.1 10.1 0 0-2.6 1.5-4.2 7.2s-5.8 6.4-5.8 6.4-6.7 1.3-11.7-3c-4.2-3.6-4.9-10-3.1-14.9s5-6.3 9.7-7.3c4.7-1.1 14-2 13 1.5z"/><path d="M64.9 76.8c2.7 0 11.1 5.8 11.2 12.9v-.4c0-7.4-6.8-13.3-11.2-13.3-4.4 0-11.2 6-11.2 13.3v.4c.1-7.1 8.5-12.9 11.2-12.9z"/><ellipse transform="rotate(-14.465 66.712 61.468)" class="st10" cx="66.7" cy="61.5" rx=".8" ry="1.5"/><ellipse transform="rotate(17.235 62.371 61.462)" class="st10" cx="62.4" cy="61.5" rx=".8" ry="1.5"/><circle cx="37.2" cy="58.1" r="8.8"/><circle class="st4" cx="39.5" cy="54.2" r="2.3"/><path class="st9" d="M67.5 58.2c0-.1-2.3 1-2.9 1.1-.6-.1-2.9-1.2-2.9-1.1h5.8z"/><path class="st1" d="M50 57.7s-7.9 5.4-12.2 10.7c-4.3 5.3-4.2 6.3-4.2 6.3l3.1 1.4s4.4-8.3 9.8-11.4 6.1-5.7 6.1-5.7L50 57.7z"/><path class="st3" d="M32.7 41.7S30 49.1 24 52.2c0 0 9.4-1.1 8.7-10.5zM95.8 41.7s2.7 7.4 8.7 10.5c0 0-9.4-1.1-8.7-10.5zM78.7 55.5s-5.9-6.2-13.8-6.4h.1.1c-8 .2-13.8 6.4-13.8 6.4 6.9-4.8 12.8-4.7 13.8-4.7-.1 0 6.7-.1 13.6 4.7zM71.8 42.5s-3-4.2-7-4.3h.2c-3 .1-6.9 4.3-6.9 4.3 3.4-3.3 6.9-3.2 6.9-3.2s3.3-.1 6.8 3.2zM37.2 73.2s-4.7 2.3-8.1.9H29c-3-1.7-4.5-6.8-4.5-6.8s3 9 12.7 5.9zM92 73.2s4.7 2.3 8.1.9c4-1.7 4.6-6.8 4.6-6.8s-3 9-12.7 5.9z"/><path class="st3" d="M42.6 41.2c2.6-.5 6.9-.6 10.3.5 4.3 1.5.8 7 1.7 7.3.9.3 2.1-3.8 10.1-3.4 8.1.4 9 4 10.1 3.4s-1.1-10 11-7.8c0 0-12.7-3.4-12.1 5.8 0 0-7.3-5.6-17.5-.6.1 0 2.7-8.6-13.6-5.2zM86.9 41.2c.2 0 .3.1.4.1.1 0-.1-.1-.4-.1zM86.9 41.2zM39.1 28.9S28.3 42.5 26.7 47.7c-1.6 5.3-2.8 27-4.2 30.1l-5-21.4 9.2-22.3 12.4-5.2zM89.9 28.9s10.8 13.6 12.4 18.8c1.6 5.3 2.8 27 4.2 30.1l5-21.4-9.2-22.3-12.4-5.2z"/><path class="st7" d="M89.4 28.9s11.6 9.7 15 20.9c3.4 11.2 2 24.8 4.6 26.5 3.7 2.4 7.9-11.9 9.3-13.4 2.2-2.4 9.5-8.5 10-9.6.5-1.1-14.8-17.8-21.5-21.1-8.1-3.8-18.1-4.1-17.4-3.3z"/><path class="st8" d="M99.3 34.9s13.7 17.5 13.5 39.3l5.5-11.2c-.1 0-4.9-14.3-19-28.1z"/><path class="st7" d="M39.1 28.9s-11.6 9.7-15 20.9-2 24.8-4.6 26.5c-3.7 2.4-7.9-11.9-9.3-13.4C8 60.5.7 54.4.2 53.3-.3 52.2 15 35.5 21.7 32.2c8.1-3.8 18.1-4.1 17.4-3.3z"/><path class="st8" d="M29.2 34.9S15.5 52.4 15.7 74.2L10.3 63s4.8-14.3 18.9-28.1z"/><path class="st3" d="M21.8 74.6s1 5.4 2.6 7.1.5-1.3.5-1.3-1.7-.9-1.4-7.8-1.7 2-1.7 2zM107.1 74.6s-1 5.4-2.6 7.1-.5-1.3-.5-1.3 1.7-.9 1.4-7.8 1.7 2 1.7 2z"/><g><circle class="st8" cx="54.5" cy="70.5" r=".8"/><circle class="st8" cx="49.9" cy="75.3" r=".8"/><circle class="st8" cx="48.4" cy="70.5" r=".8"/></g><g><circle class="st8" cx="74" cy="70.5" r=".8"/><circle class="st8" cx="78.6" cy="75.3" r=".8"/><circle class="st8" cx="80.1" cy="70.5" r=".8"/></g></svg>
+                              <h1>Pug/Jade</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="2500" height="2500"><path fill="#fff" d="M600 0l530.3 300v600L600 1200 69.7 900V300z"/><path fill="#8ed6fb" d="M1035.6 879.3l-418.1 236.5V931.6L878 788.3l157.6 91zm28.6-25.9V358.8l-153 88.3V765l153 88.4zm-901.5 25.9l418.1 236.5V931.6L320.3 788.3l-157.6 91zm-28.6-25.9V358.8l153 88.3V765l-153 88.4zM152 326.8L580.8 84.2v178.1L306.1 413.4l-2.1 1.2-152-87.8zm894.3 0L617.5 84.2v178.1l274.7 151.1 2.1 1.2 152-87.8z"/><path fill="#1c78c0" d="m580.8 889.7l-257-141.3v-280l257 148.4v272.9m36.7 0l257-141.3v-280l-257 148.4v272.9m-276.3-453.7l258-141.9 258 141.9-258 149-258-149"/></svg>
+                                <h1>Webpack</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="480px" height="480px"><path fill="#035bda" d="M46 40L29.317 10.852 22.808 23.96 34.267 37.24 13 39.655zM13.092 18.182L2 36.896 11.442 35.947 28.033 5.678z"/></svg>                                <h1>Azure</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg fill="none" height="2500" viewBox="204.925 153.577 757.617 860.543" width="2500" xmlns="http://www.w3.org/2000/svg"><path d="m962.541 407.983c0-14.237-3.034-27.074-9.336-37.811-6.068-10.736-15.171-19.605-27.307-26.607-100.829-58.117-201.891-116.233-302.72-174.35-27.308-15.638-53.449-15.171-80.523.7-40.145 23.574-241.336 138.873-301.086 173.65-24.741 14.237-36.644 36.177-36.644 64.652v351.033c0 14.004 3.034 26.374 8.869 37.111 6.069 10.97 15.405 20.306 27.775 27.541 59.984 34.777 260.941 149.843 301.086 173.65 27.074 15.868 53.448 16.568 80.523.7 100.829-58.35 201.891-116.233 302.72-174.35 12.603-7.235 21.706-16.338 27.774-27.541 5.835-10.737 8.869-23.107 8.869-37.111z" fill="#9a4993"/><path d="m584.667 582.333-371.34 213.794c6.069 10.97 15.405 20.306 27.775 27.542 59.984 34.776 260.941 149.842 301.086 173.649 27.074 15.872 53.449 16.572 80.523.7 100.829-58.35 201.891-116.233 302.72-174.349 12.603-7.236 21.706-16.338 27.774-27.542z" fill="#6a1577"/><path d="m474.735 645.584c21.707 37.811 62.318 63.252 108.765 63.252 46.913 0 87.758-25.674 109.231-63.952l-108.064-62.551z" fill="#6a1577"/><path d="m962.542 407.983c0-14.237-3.035-27.074-9.336-37.811l-368.539 212.161 369.005 213.795c5.835-10.737 8.87-23.107 8.87-37.111z" fill="#813084"/><g fill="#fff"><path d="m692.731 644.884c-21.472 38.044-62.317 63.952-109.231 63.952-46.68 0-87.291-25.441-108.764-63.252-10.503-18.438-16.572-39.444-16.572-62.084 0-69.32 56.016-125.336 125.336-125.336 46.213 0 86.592 25.207 108.298 62.551l109.464-63.018c-43.645-75.154-124.869-125.802-217.995-125.802-139.107 0-251.605 112.732-251.605 251.605 0 45.513 12.136 88.459 33.376 125.336 43.412 75.388 125.102 126.269 218.462 126.269 93.594 0 175.284-51.114 218.696-126.969zm138.406-120.901h-24.974v120.668h24.974zm55.316 0h-24.974v120.668h24.974z"/><path d="m906.759 544.289h-120.668v24.974h120.668zm0 55.082h-120.668v24.974h120.668z"/></g></svg>
+                                <h1>C#</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" class="icon-svg icon-rose"><path fill="#f05a22" d="M0 0h150v150H0z"></path><path d="M75 63.92A11.08 11.08 0 1163.92 75 11.08 11.08 0 0175 63.92m28.45 3.44h23.81a.89.89 0 01.89.73c.58 3 2.11 14.47-7.54 14.47h-17c-9.37 0-9.58-15.2-.11-15.2m-56.96 15.2H22.73a.9.9 0 01-.89-.73c-.58-3-2.11-14.47 7.54-14.47h17.05c9.37 0 9.58 15.2.11 15.2m43.2-33.1l16.84-16.84a.91.91 0 011.15-.1c2.55 1.73 11.72 8.73 4.89 15.56l-12.05 12.05c-6.63 6.63-17.52-4-10.83-10.67m-29.49 51l-16.84 16.83a.9.9 0 01-1.15.11c-2.55-1.74-11.72-8.74-4.89-15.56l12.05-12.06c6.63-6.62 17.52 4 10.83 10.68m7.14-53.96V22.69a.91.91 0 01.74-.89c3-.57 14.47-2.11 14.47 7.55v17c0 9.37-15.21 9.58-15.21.11m15.21 56.96v23.81a.9.9 0 01-.74.88c-3 .58-14.47 2.11-14.47-7.54v-17c0-9.36 15.21-9.58 15.21-.1M49.5 60.21L32.66 43.37a.89.89 0 01-.11-1.14c1.74-2.56 8.74-11.72 15.57-4.9l12.05 12.06c6.63 6.62-4 17.52-10.67 10.82m50.99 29.5l16.84 16.83a.91.91 0 01.11 1.15c-1.74 2.56-8.74 11.72-15.57 4.9l-12.05-12.06c-6.63-6.62 4-17.52 10.67-10.82" fill="#fff"></path></svg>
+                                 <h1>Kentico CMS</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="hex">
+                          <div class="hexIn">
+                            <a class="hexLink" href="javascript:void(0)">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" style="transform: scale(0.7);"  viewBox="0 0 540.000000 540.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,540.000000) scale(0.100000,-0.100000)"fill="#3544b1" stroke="none"><path d="M2465 4250 c-506 -107 -883 -505 -962 -1015 -19 -126 -12 -334 16 -455 109 -479 493 -845 980 -935 107 -19 313 -19 427 0 378 66 704 308 880                               651 89 176 127 337 127 549 1 268 -55 461 -199 683 -175 270 -482 471 -803                               527 -120 21 -352 19 -466 -5z m-290 -723 c83 -15 78 4 51 -212 -23 -175 -18                               -422 9 -500 37 -107 93 -148 234 -171 172 -28 528 -12 605 27 52 27 97 84 116                               147 38 122 36 376 -4 608 -10 54 -10 76 -2 83 17 14 167 34 178 23 22 -22 49                               -232 55 -433 5 -170 3 -220 -11 -290 -53 -262 -183 -353 -547 -380 -246 -19                               -512 11 -630 71 -62 32 -136 106 -163 164 -71 151 -82 436 -30 746 24 143 18                               138 139 117z"/>                               <path d="M2370 1360 c0 -195 2 -221 16 -227 9 -3 25 -1 35 5 13 8 26 9 44 2                               15 -6 50 -10 79 -10 95 0 136 55 136 182 0 84 -25 148 -66 166 -31 15 -119 16                               -145 2 -18 -10 -19 -7 -19 45 l0 55 -40 0 -40 0 0 -220z m200 40 c30 -30 29                               -144 -2 -177 -23 -25 -51 -29 -92 -13 -25 9 -26 12 -26 100 0 85 1 91 23 100                               37 15 76 11 97 -10z"/>                               <path d="M3135 1495 c-5 -2 -27 -6 -47 -10 -35 -5 -38 -8 -38 -40 0 -19 3 -36                               8 -38 4 -3 30 0 59 6 60 12 103 -1 103 -31 0 -16 -10 -20 -57 -25 -73 -6 -111                               -23 -129 -58 -27 -53 -9 -135 35 -159 28 -15 122 -12 154 4 15 8 27 11 27 5 0                               -5 14 -9 30 -9 l30 0 0 134 c0 145 -7 177 -42 200 -23 14 -113 29 -133 21z"/>                               <path d="M1377 1484 c-4 -4 -7 -72 -7 -151 l0 -145 29 -29 c25 -25 37 -29 85                               -29 30 0 67 5 82 11 21 7 34 7 50 -2 13 -6 30 -9 39 -6 13 6 15 29 13 179 l-3                               173 -40 0 -40 0 -5 -135 -5 -135 -38 -9 c-67 -17 -71 -8 -77 145 l-5 134 -35                               3 c-20 2 -39 0 -43 -4z"/>                               <path d="M1784 1477 c-2 -7 -3 -87 -2 -177 l3 -165 35 0 35 0 5 134 5 134 28                               10 c15 5 39 6 52 3 24 -6 24 -7 27 -144 l3 -137 40 0 40 0 5 135 5 135 37 9                               c62 15 67 4 70 -147 l3 -132 40 0 40 0 0 153 0 154 -28 24 c-23 19 -39 24 -87                               24 -33 0 -71 -5 -85 -12 -19 -9 -28 -9 -37 0 -15 15 -123 16 -150 1 -14 -8                               -23 -8 -31 0 -15 15 -47 14 -53 -2z"/>                               <path d="M2764 1477 c-2 -7 -3 -87 -2 -177 l3 -165 40 0 40 0 3 130 c1 71 7                               134 11 138 5 5 33 12 62 15 52 7 54 8 54 37 0 28 -2 30 -44 33 -24 2 -57 -2                               -74 -9 -24 -10 -32 -10 -35 -1 -5 16 -51 15 -58 -1z"/>                               <path d="M3475 1480 c-64 -26 -98 -127 -77 -227 9 -45 20 -65 47 -90 33 -31                               39 -33 108 -33 83 0 111 13 105 51 -3 22 -7 24 -58 24 -30 0 -64 4 -76 8 -27                               9 -44 47 -44 97 0 83 38 115 121 104 l49 -7 0 36 c0 23 -6 37 -16 41 -23 9                               -135 6 -159 -4z"/>                               <path d="M3778 1473 c-43 -27 -58 -70 -58 -163 0 -134 38 -180 150 -180 114 0                               158 48 159 175 1 78 -13 126 -45 156 -22 20 -37 24 -102 27 -60 2 -83 -1 -104                               -15z m142 -73 c16 -16 20 -33 20 -90 0 -57 -4 -74 -20 -90 -25 -25 -61 -26                               -91 -1 -21 17 -24 28 -24 89 0 55 4 74 19 91 24 27 70 27 96 1z"/></g></svg>
+                                <h1>Umbraco CMS</h1>
+                              <p></p>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section id="services">
+
+        <div class="container">
+            <div class="content">
+                <h1 class="section-header waypoint" data-animation="slide-in-left">What I can Offer</h1>
+                    <div class="title-underline waypoint" data-animation="slide-in-left" ></div>
+                    <div class="splide">
+                <div class="splide__track">
+                <ul class="service-items splide__list">
+                    <li class="service-item splide__slide">
+                        <div class="service-item-content">
+                            <img class="service-item-image" src="https://placedog.net/300/168?id=8"></img>
+                            <h2 class="service-item-title">Lorem Ipsum</h2>
+                            <p class="service-item-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Adipisci fugiat nesciunt atque magnam laborum sed praesentium perferendis autem incidunt
+                                nostrum qui, reprehenderit deserunt deleniti soluta saepe tempora aliquid eius nulla.
+                            </p>
+                            <a href="javascript:void(0)" class="service-item-btn btn">Learn More</a>
+                        </div>
+                    </li>
+
+                    
+                    <li class="service-item splide__slide">
+                        <div class="service-item-content">
+                            <img class="service-item-image" src="https://placedog.net/300/168?id=65"></img>
+                            <h2 class="service-item-title">Lorem Ipsum</h2>
+                            <p class="service-item-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Adipisci fugiat nesciunt atque magnam laborum sed praesentium perferendis autem incidunt
+                                nostrum qui, reprehenderit deserunt deleniti soluta saepe tempora aliquid eius nulla.
+                            </p>
+                            <a href="#" class="service-item-btn btn">Learn More</a>
+                        </div>
+
+                    </li>
+                    <li class="service-item splide__slide">
+                        <div class="service-item-content">
+                            <img class="service-item-image" src="https://placedog.net/300/168?id=77"></img>
+                            <h2 class="service-item-title">Lorem Ipsum</h2>
+                            <p class="service-item-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Adipisci fugiat nesciunt atque magnam laborum sed praesentium perferendis autem incidunt
+                                nostrum qui, reprehenderit deserunt deleniti soluta saepe tempora aliquid eius nulla.
+                            </p>
+                            <a href="#" class="service-item-btn btn">Learn More</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+                </div>
+                </div>
+           
+
+    </section>
+
+
+    <script src="./js/global.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@mixin breakpoint($point) {
+    @if $point == iphonelandscape {
+        @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape), 
+        (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) and (orientation : landscape),
+        (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) 
+        {
+            @content;
+        }
+    }
+
+    @if $point == desktoplarge {
+        @media screen and (min-width: 1280px) {
+            @content;
+        }
+    }
+    @else if $point == desktop {
+        @media screen and (min-width: 1024px) {
+            @content;
+        }
+    }
+    @else if $point == tablet {
+        @media screen and (min-width: 768px) {
+            @content;
+        }
+    }
+    @else if $point == mobileandtablet {
+        @media screen and (max-width: 1024px) {
+            @content;
+        }
+    }
+    @else if $point == phablet {
+        @media screen and (min-width: 640px) {
+            @content;
+        }
+    }
+    @else if $point == largephone {
+        @media screen and (min-width: 480px) {
+            @content;
+        }
+    }
+    @else if $point == print {
+        @media print {
+            @content;
+        }
+    }
+}
+
+
+
+@mixin desktoplarge {
+    @include breakpoint(desktoplarge) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @include breakpoint(desktop) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @include breakpoint(tablet) {
+        @content;
+    }
+}
+
+@mixin mobileandtablet {
+    @include breakpoint(mobileandtablet) {
+        @content;
+    }
+}
+
+@mixin phablet {
+    @include breakpoint(phablet) {
+        @content;
+    }
+}
+
+@mixin largephone {
+    @include breakpoint(largephone) {
+        @content;
+    }
+}
+
+@mixin iphonelandscape {
+    @include breakpoint(iphonelandscape) {
+        @content;
+    }
+}
+
+@mixin print {
+    @include breakpoint(print) {
+        @content;
+    }
+}
